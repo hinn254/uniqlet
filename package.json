@@ -1,0 +1,30 @@
+{
+  "name": "uniqlet",
+  "version": "0.1.0",
+  "description": "A tiny, fast, and flexible random ID generator with prefix & length support.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "keywords": [
+    "id",
+    "unique",
+    "random",
+    "generator",
+    "uniqlet",
+    "nanoid",
+    "uuid"
+  ],
+  "author": "Benny H. Otieno",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}

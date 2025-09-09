@@ -1,0 +1,13 @@
+
+---
+
+## 🚀 How to Publish
+```bash
+# 1. Build the project
+npm run build
+
+# 2. Login to npm
+npm login
+
+# 3. Publish
+npm publish --access public
