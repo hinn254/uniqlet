@@ -6,7 +6,9 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "vitest"
+    "test": "vitest",
+    "prepublishOnly": "npm run build",
+    "prepack": "npm run build"
   },
   "keywords": [
     "id",
@@ -19,12 +21,22 @@
   ],
   "author": "Benny H. Otieno",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bennyotieno/uniqlet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bennyotieno/uniqlet/issues"
+  },
+  "homepage": "https://github.com/bennyotieno/uniqlet#readme",
+  "files": [
+    "dist",
+    "README.md",
+    "MIT"
+  ],
   "devDependencies": {
     "@types/node": "^24.3.1",
     "typescript": "^5.9.2",
     "vitest": "^3.2.4"
-  },
-  "dependencies": {
-    "crypto": "^1.0.1"
   }
 }
