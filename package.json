@@ -23,12 +23,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bennyotieno/uniqlet.git"
+    "url": "git+https://github.com/hinn254/uniqlet.git"
   },
   "bugs": {
-    "url": "https://github.com/bennyotieno/uniqlet/issues"
+    "url": "https://github.com/hinn254/uniqlet/issues"
   },
-  "homepage": "https://github.com/bennyotieno/uniqlet#readme",
+  "homepage": "https://github.com/hinn254/uniqlet#readme",
   "files": [
     "dist",
     "README.md",
