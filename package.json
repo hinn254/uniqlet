@@ -1,6 +1,6 @@
 {
   "name": "uniqlet",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A tiny, fast, and flexible random ID generator with prefix & length support.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
